@@ -7,6 +7,17 @@
     - Use speech-to-text timestamps to find long gaps between words
 4. Insert space in the middle of these gaps to align audio files with the existing transcripts.
 
+## Notes
+
+Need to decide whether to produce 1 large file or multiple smaller files. Combining the audio would produce a very large file:
+
+|Bitrate |File size per hour|Total file size|
+|--------|------------------|---------------|
+|96 Kbps |43.2 MB           |7.8 GB         |
+|128 Kbps|57.6 MB           |10.4 GB        |
+|192 Kbps|86.4 MB           |15.6 GB        |
+|256 Kbps|115.2 MB          |20.7 GB        |
+
 ## Links
 
 ### Resources
