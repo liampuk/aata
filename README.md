@@ -22,7 +22,7 @@ Need to decide whether to produce 1 large file or multiple smaller files. Combin
 
 For smaller files, need to decide where to cut:
 - At a set time (4 hours etc.)
-- Set file size (100 MB etc.) *
+- Set file size (100 MB etc.)*
 - As the original tapes were
     - this would be tricky as some tapes overlap (no gap in conversation)
 - At key moments
