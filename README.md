@@ -24,17 +24,17 @@ Need to decide whether to produce 1 large file or multiple smaller files. Combin
 |192 Kbps |86.4 MB           |15.6 GB        |
 |256 Kbps |115.2 MB          |20.7 GB        |
 
-*128 Kbps seems to be the best option (for a 16gb sd card)
+> *128 Kbps seems to be the best option (for a 16gb sd card)
 
 For smaller files, need to decide where to cut:
 - At a set time (4 hours etc.)
-- Set file size (100 MB etc.) *
+- Set file size (100 MB etc.)*
 - As the original tapes were
     - this would be tricky as some tapes overlap (no gap in conversation)
 - At key moments
     - possibly tricky as can't cut during the moment (don't want audio splice artifacts during launch etc.)
 
-*Probably the most logical option
+> *Probably the most logical option
 
 ## Links
 
