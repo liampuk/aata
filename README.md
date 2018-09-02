@@ -1,6 +1,8 @@
 # Apollo 11 Audio Transcription and Alignment
 ## Overview
 
+<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Apollo_11_insignia.png/238px-Apollo_11_insignia.png">
+
 After watching Apollo 13 (for maybe the 13th time) I thought it might be cool to create a modern day version of the 'squawk boxes' that the families of astronauts were given to listen into the Air to Ground communications in real time. Obviously I can't listen into Apollo missions in real time, but I thought it would be close enough (+/- 50 years) to play the tapes back on the right date and time, starting at 1:32pm on the 16th July and finishing with the splashdown at 4:50pm on the 24th July.
 
 Although NASA has uploaded the original tapes in their entierty to [archive.org](https://archive.org/details/Apollo11Audio), they are completely raw as recorded, with many cuts and jumps. This means in order to play the audio back in 'real time', a huge amount of editing would be required.  [ben feist](http://benfeist.com/project-apollo-17/) has already done this for apollo 17, which took over 3 years (for a project much larger in scope mind). Ideally, I'd like to get this done in a year, so automating the editing of audio seems to be the way to go.
