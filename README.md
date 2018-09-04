@@ -41,7 +41,7 @@ For smaller files, need to decide where to cut:
 ***
 Various speech-to-text services are available online, but the cost is prohibitively expensive.
 
-- $280 quoted by Google Cloud and Amazon AWS , at $0.0004/second
+- $280 quoted by [Google Cloud](https://cloud.google.com/speech-to-text/) and [Amazon AWS](https://aws.amazon.com/transcribe/), at $0.0004/second
 
 Therefore running the transcription locally seems to be the way to go.
 
