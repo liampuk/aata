@@ -39,10 +39,13 @@ For smaller files, need to decide where to cut:
 > *Probably the most logical option
 
 ***
+
 Various speech-to-text services are available online, but the cost is prohibitively expensive.
 
 - $280 quoted by [Google Cloud](https://cloud.google.com/speech-to-text/) and [Amazon AWS](https://aws.amazon.com/transcribe/), at $0.0004/second
 - $214 quoted by [IBM Watson](https://www.ibm.com/watson/services/speech-to-text/), at $0.02/minute (first 1000 minutes free)
+    - Most accurate of the 4.
+- $187 quoted by [Microsoft Bing Speech](https://azure.microsoft.com/en-us/services/cognitive-services/speech/), at $4/15 seconds
 
 Therefore running the transcription locally seems to be the way to go.
 
@@ -59,8 +62,9 @@ Therefore running the transcription locally seems to be the way to go.
 ### Services
 
 - Speech-to-Text
-    - [IBM Watson vs Google Cloud]("https://dague.net/2017/06/12/comparing-speech-recognition-for-transcripts/")
+    - [IBM Watson vs Google Cloud](https://dague.net/2017/06/12/comparing-speech-recognition-for-transcripts/)
     - [Recognising Speech for Fun and Profit](https://blog.rebased.pl/2016/12/08/speech-recognition-1.html)
+    - [List of speech-to-text apis](https://www.programmableweb.com/category/all/apis?keyword=speech%20recognition)
 
 ### Similar Projects
 - Project Apollo 17
