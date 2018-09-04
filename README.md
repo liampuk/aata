@@ -53,6 +53,8 @@ Therefore running the transcription locally seems to be the way to go.
 
 > ### Transcript - [Apollo 11 Flight Journal](https://history.nasa.gov/afj/ap11fj/index.html)
 
+> ### Event Timestamps - [Apollo 11 Timeline](https://history.nasa.gov/SP-4029/Apollo_11i_Timeline.htm)
+
 ### Similar Projects
 - Project Apollo 17
     - blog:  [benfeist.com](http://benfeist.com/project-apollo-17/)
