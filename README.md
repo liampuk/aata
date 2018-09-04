@@ -3,7 +3,7 @@
 
 <img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Apollo_11_insignia.png/238px-Apollo_11_insignia.png">
 
-After watching Apollo 13 (for maybe the 13th time) I thought it might be cool to create a modern day version of the 'squawk boxes' that the families of astronauts were given to listen into the Air to Ground communications in real time. Obviously I can't listen into Apollo missions in real time, but I thought it would be close enough (+/- 50 years) to play the tapes back on the right date and time, starting at 1:32pm on the 16th July and finishing with the splashdown at 4:50pm on the 24th July.
+After watching Apollo 13 (for maybe the 13th time) I thought it might be cool to create a modern day version of the *squawk boxes* that the families of astronauts were given to listen into the Air to Ground communications in real time. Obviously I can't listen into Apollo missions in real time, but I thought it would be close enough (+/- 50 years) to play the tapes back on the right date and time, starting at 1:32pm on the 16th July and finishing with the splashdown at 4:50pm on the 24th July.
 
 Although NASA has uploaded the original tapes in their entierty to [archive.org](https://archive.org/details/Apollo11Audio), they are completely raw as recorded, with many cuts and jumps. This means in order to play the audio back in 'real time', a huge amount of editing would be required.  [ben feist](http://benfeist.com/project-apollo-17/) has already done this for apollo 17, which took over 3 years (for a project much larger in scope mind). Ideally, I'd like to get this done in a year, so automating the editing of audio seems to be the way to go.
 
@@ -21,10 +21,10 @@ Need to decide whether to produce 1 large file or multiple smaller files. Combin
 
 |Bitrate  |File size per hour|Total file size|
 |-------- |------------------|---------------|
-|96 Kbps  |43.2 MB           |7.8 GB         |
-|128 Kbps*|57.6 MB           |10.4 GB        |
-|192 Kbps |86.4 MB           |15.6 GB        |
-|256 Kbps |115.2 MB          |20.7 GB        |
+|96 Kbps  |43.2 MB           |8.4 GB         |
+|128 Kbps*|57.6 MB           |11.2 GB        |
+|192 Kbps |86.4 MB           |16.8 GB        |
+|256 Kbps |115.2 MB          |22.5 GB        |
 
 > *128 Kbps seems to be the best option (for a 16gb sd card)
 
@@ -37,6 +37,13 @@ For smaller files, need to decide where to cut:
     - possibly tricky as can't cut during the moment (don't want audio splice artifacts during launch etc.)
 
 > *Probably the most logical option
+
+***
+Various speech-to-text services are available online, but the cost is prohibitively expensive.
+
+- $280 quoted by Google Cloud and Amazon AWS , at $0.0004/second
+
+Therefore running the transcription locally seems to be the way to go.
 
 ## Links
 
