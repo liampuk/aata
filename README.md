@@ -67,6 +67,8 @@ Therefore running the transcription locally seems to be the way to go.
     - [IBM Watson vs Google Cloud](https://dague.net/2017/06/12/comparing-speech-recognition-for-transcripts/)
     - [Recognising Speech for Fun and Profit](https://blog.rebased.pl/2016/12/08/speech-recognition-1.html)
     - [List of speech-to-text apis](https://www.programmableweb.com/category/all/apis?keyword=speech%20recognition)
+    - [CMUSphinx](https://github.com/liampuk/aata.git)
+      - Linux only
 - [ffmpeg](https://www.ffmpeg.org/download.html) for processing audio files 
 
 ### Similar Projects
