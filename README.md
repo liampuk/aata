@@ -51,6 +51,12 @@ Various speech-to-text services are available online, but the cost is prohibitiv
 
 Therefore running the transcription locally seems to be the way to go.
 
+***
+CMUSphinx has functionality for aligning existing transcripts with audio files (exactly what I want to do), so this seems to be the way to go.
+- [CMUSphinx aligner release notes](https://cmusphinx.github.io/2014/07/long-audio-aligner-landed-in-trunk/)
+- [CMUSphinx alignment example](https://github.com/JoshData/cmusphinx-alignment-example)
+***
+
 ## Links
 
 ### Resources
