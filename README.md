@@ -55,6 +55,16 @@ Therefore running the transcription locally seems to be the way to go.
 CMUSphinx has functionality for aligning existing transcripts with audio files (exactly what I want to do), so this seems to be the way to go.
 - [CMUSphinx aligner release notes](https://cmusphinx.github.io/2014/07/long-audio-aligner-landed-in-trunk/)
 - [CMUSphinx alignment example](https://github.com/JoshData/cmusphinx-alignment-example)
+
+Steps to get this to work:
+1. clean the start/end of each tape file (no overlap).
+2. create transcripts for each tape file (without/without timestamps).
+3. run CMUSphinx for each tape file to get timestamps of each word.
+4. convert original transcript timestamps to CMUSphinx format.
+5. compare both transcripts and get offset for timestamps
+6. align audio with transcripts using offset.
+7. extend audio files to match up.
+
 ***
 
 ## Links
